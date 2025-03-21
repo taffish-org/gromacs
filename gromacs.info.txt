@@ -1,0 +1,9 @@
+# <gromacs:2025.1 | KaiyuanHan | 2025-03-22>
+ARGS
+    <else>
+        gmx --help
+    <main>
+        gmx ::*APP-ARGS*::
+RUN
+    <container:taf-gromacs-v2025.1:ghcr.io/taffish-org/gromacs:2025.1>
+        ::*MAIN*::

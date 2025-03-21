@@ -1,0 +1,9 @@
++TOOL:gromacs
+ARGS
+    <else>
+        gmx --help
+    <main>
+        gmx ::*APP-ARGS*::
+RUN
+    <container:taf-gromacs-v2025.1:ghcr.io/taffish-org/gromacs:2025.1>
+        ::*MAIN*::
