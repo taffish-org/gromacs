@@ -1,7 +1,7 @@
 # <gromacs:2025.1 | KaiyuanHan | 2025-03-22>
 ARGS
     <else>
-        gmx --help
+        gmx
     <main>
         gmx ::*APP-ARGS*::
 RUN
